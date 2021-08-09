@@ -1,0 +1,5 @@
+name: PvPPlugin
+version: 1.0
+author: MCK
+api-version: 1.13
+main: me.therealmck.PvP.Main

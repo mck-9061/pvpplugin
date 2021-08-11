@@ -12,5 +12,7 @@ public class AerialDuel extends Duel {
         addSpecialItemsToKit();
         
         kit.add(new ItemStack(Material.ELYTRA));
+
+        //todo: set player starting locations and world
     }
 }

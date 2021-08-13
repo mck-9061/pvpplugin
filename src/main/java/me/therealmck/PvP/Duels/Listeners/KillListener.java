@@ -38,9 +38,7 @@ public class KillListener implements Listener {
         killed.setHealth(20);
         killed.teleport(killer);
 
-        //todo: remember that if they disconnect in spectator, they will return in spectator.
-        // Might be best to have a listener for joining that teleports you to spawn
-        // and sets your gamemode to survival.
+
         killed.setGameMode(GameMode.SPECTATOR);
 
         Main.currentlyInDuel.remove(entry);

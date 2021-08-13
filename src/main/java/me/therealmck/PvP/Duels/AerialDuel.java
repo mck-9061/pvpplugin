@@ -12,6 +12,15 @@ public class AerialDuel extends Duel {
         addSpecialItemsToKit();
         
         kit.add(new ItemStack(Material.ELYTRA));
+        kit.add(new ItemStack(Material.DIAMOND_HELMET));
+        kit.add(new ItemStack(Material.DIAMOND_LEGGINGS));
+        kit.add(new ItemStack(Material.DIAMOND_BOOTS));
+
+        kit.add(new ItemStack(Material.DIAMOND_SWORD));
+        kit.add(new ItemStack(Material.FIREWORK_ROCKET, 64));
+        kit.add(new ItemStack(Material.BOW));
+        kit.add(new ItemStack(Material.ARROW, 64));
+        kit.add(new ItemStack(Material.SHIELD));
 
         //todo: set player starting locations and world
     }
